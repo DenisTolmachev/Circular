@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="511px" viewBox="0 0 1920 511" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>0D2A9A64-1B80-4F50-BBD3-17A92F71C404</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="14.3286133%" y1="0%" x2="100%" y2="97.8993395%" id="linearGradient-1">
+            <stop stop-color="#6049FF" offset="0%"></stop>
+            <stop stop-color="#FDB44D" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="0 0 1920 0 1920 511 0 511"></polygon>
+        <radialGradient cx="50%" cy="50.6905692%" fx="50%" fy="50.6905692%" r="49.3094308%" id="radialGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.3" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50.6905692%" fx="50%" fy="50.6905692%" r="48.4053197%" id="radialGradient-5">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.296337183" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="#1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, -5759.000000)">
+        <g id="download" transform="translate(0.000000, 5759.000000)">
+            <g id="download_background">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                <g id="circles" opacity="0.3" mask="url(#mask-3)">
+                    <g transform="translate(160.000000, -689.000000)" id="outline">
+                        <circle fill="url(#radialGradient-4)" cx="800" cy="800" r="800"></circle>
+                        <circle fill="url(#radialGradient-4)" cx="800" cy="666.666667" r="666.666667"></circle>
+                        <circle fill="url(#radialGradient-5)" cx="800" cy="533.333333" r="533.333333"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

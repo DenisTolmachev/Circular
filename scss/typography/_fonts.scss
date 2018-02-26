@@ -1,0 +1,22 @@
+// Add @font-face or @import rules here
+
+$fonts: '/fonts';
+
+
+@font-face {
+  font-family: "OpenSans";
+  src: url('#{$fonts}/Open_Sans/OpenSans-Regular/OpenSans-Regular.eot');
+  src: url('#{$fonts}/Open_Sans/OpenSans-Regular/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('#{$fonts}/Open_Sans/OpenSans-Regular/OpenSans-Regular.woff') format('woff'),
+  url('#{$fonts}/Open_Sans/OpenSans-Regular/OpenSans-Regular.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('#{$fonts}/Poppins/poppins-regular-webfont.woff2') format('woff2'),
+  url('#{$fonts}/Poppins/poppins-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
