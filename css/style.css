@@ -41,43 +41,62 @@ h3 {
 
 /* line 26, ../scss/pages/home.scss */
 h1 {
-  font-size: 2.75vw;
+  font-size: 2.75em;
   line-height: 1.17;
-  /*@media (max-width: 1900px) {*/
-  /*  font-size: 2.75em;*/
-  /*}*/
-  /*@media (max-width: 1200px) {*/
-  /*  font-size: 1.75em;*/
-  /*}*/
-  /*@media (max-width: 992px) {*/
-  /*  font-size: 30px;*/
-  /*}*/
+}
+@media (max-width: 1900px) {
+  /* line 26, ../scss/pages/home.scss */
+  h1 {
+    font-size: 2.75em;
+  }
+}
+@media (max-width: 1200px) {
+  /* line 26, ../scss/pages/home.scss */
+  h1 {
+    font-size: 1.75em;
+  }
+}
+@media (max-width: 992px) {
+  /* line 26, ../scss/pages/home.scss */
+  h1 {
+    font-size: 30px;
+  }
 }
 
 /* line 40, ../scss/pages/home.scss */
 h2 {
-  font-size: 2.5vw;
+  font-size: 2.5em;
   line-height: 1.25;
-  /*@media (max-width: 1200px) {*/
-  /*  font-size: 1.5em;*/
-  /*}*/
-  /**/
-  /*@media (max-width: 992px) {*/
-  /*  font-size: 24px;*/
-  /*}*/
+}
+@media (max-width: 1200px) {
+  /* line 40, ../scss/pages/home.scss */
+  h2 {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 992px) {
+  /* line 40, ../scss/pages/home.scss */
+  h2 {
+    font-size: 24px;
+  }
 }
 
 /* line 53, ../scss/pages/home.scss */
 h3 {
-  font-size: 1.5vw;
+  font-size: 1.5em;
   line-height: 1.13;
-  /*@media (max-width: 1200px) {*/
-  /*  font-size: 0.5em;*/
-  /*}*/
-  /**/
-  /*@media (max-width: 992px) {*/
-  /*  font-size: 18px;*/
-  /*}*/
+}
+@media (max-width: 1200px) {
+  /* line 53, ../scss/pages/home.scss */
+  h3 {
+    font-size: 0.5em;
+  }
+}
+@media (max-width: 992px) {
+  /* line 53, ../scss/pages/home.scss */
+  h3 {
+    font-size: 18px;
+  }
 }
 
 /* line 65, ../scss/pages/home.scss */
@@ -97,7 +116,7 @@ h3 {
 .logo,
 .top-menu,
 .contact_us {
-  font-size: 1vw;
+  font-size: 1em;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -223,7 +242,7 @@ h3 {
   margin-top: 3.9%;
   opacity: 0.7;
   text-align: left;
-  font-size: 1.25vw;
+  font-size: 1.25em;
 }
 @media (max-width: 992px) {
   /* line 177, ../scss/pages/home.scss */
@@ -273,7 +292,7 @@ h3 {
   display: block;
   float: left;
   text-transform: uppercase;
-  font-size: 1.125vw;
+  font-size: 1.125em;
   font-weight: bold;
   letter-spacing: 1.5px;
 }
@@ -377,7 +396,7 @@ h3 {
   display: block;
   margin-top: 8%;
   margin-left: 6.8%;
-  font-size: 1.25vw;
+  font-size: 1.25em;
   margin-bottom: 8%;
 }
 @media (max-width: 992px) {
@@ -422,7 +441,7 @@ h3 {
   text-align: center;
   color: #373981;
   margin-bottom: 8%;
-  font-size: 1.25vw;
+  font-size: 1.25em;
 }
 
 /* line 330, ../scss/pages/home.scss */
@@ -446,7 +465,7 @@ h3 {
   margin: 8%;
   color: #868e9c;
   text-align: center;
-  font-size: 1.25vw;
+  font-size: 1.25em;
 }
 
 /* line 350, ../scss/pages/home.scss */
@@ -523,7 +542,7 @@ h3 {
 .download-app-text {
   text-align: center;
   margin-top: 4.5%;
-  font-size: 1.25vw;
+  font-size: 1.25em;
 }
 
 /* line 410, ../scss/pages/home.scss */
@@ -533,7 +552,7 @@ h3 {
 
 /* line 414, ../scss/pages/home.scss */
 .counters-row {
-  font-size: 1.25vw;
+  font-size: 1.25em;
 }
 
 /* line 418, ../scss/pages/home.scss */
@@ -578,7 +597,7 @@ h3 {
 .copyright {
   text-align: center;
   margin: 3% auto;
-  font-size: 0.75vw;
+  font-size: 0.75em;
 }
 
 /* line 455, ../scss/pages/home.scss */
