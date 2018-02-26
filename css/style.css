@@ -217,7 +217,7 @@ h3 {
 @media (max-width: 992px) {
   /* line 157, ../scss/pages/home.scss */
   .phone_wrap {
-    position: inherit;
+    position: relative;
     height: 395px;
   }
 }
@@ -233,7 +233,7 @@ h3 {
   /* line 166, ../scss/pages/home.scss */
   .phone {
     width: 100%;
-    left: 18%;
+    left: 0;
   }
 }
 
@@ -281,9 +281,9 @@ h3 {
 @media (max-width: 992px) {
   /* line 203, ../scss/pages/home.scss */
   .download_btn {
-    width: 100%;
     height: 40px;
-    padding: 10px 0px;
+    padding: 3px 0px;
+    margin-top: 10px;
   }
 }
 
@@ -313,85 +313,86 @@ h3 {
   /* line 227, ../scss/pages/home.scss */
   .btn_blue {
     width: 100%;
+    margin-right: 0;
   }
 }
 
-/* line 236, ../scss/pages/home.scss */
+/* line 237, ../scss/pages/home.scss */
 .btn_white {
   color: #8b5df2;
   background-color: #ffffff;
 }
 @media (max-width: 992px) {
-  /* line 236, ../scss/pages/home.scss */
+  /* line 237, ../scss/pages/home.scss */
   .btn_white {
     width: 100%;
   }
 }
 
-/* line 244, ../scss/pages/home.scss */
+/* line 245, ../scss/pages/home.scss */
 .partners-row {
   background-color: #373981;
   text-align: center;
 }
 
-/* line 249, ../scss/pages/home.scss */
+/* line 250, ../scss/pages/home.scss */
 .partners_header {
   margin-top: 5%;
 }
 @media (max-width: 992px) {
-  /* line 249, ../scss/pages/home.scss */
+  /* line 250, ../scss/pages/home.scss */
   .partners_header {
     margin-top: 48px;
   }
 }
 
-/* line 256, ../scss/pages/home.scss */
+/* line 257, ../scss/pages/home.scss */
 .partners_icons {
   margin: 2.5% 0;
 }
 @media (max-width: 992px) {
-  /* line 256, ../scss/pages/home.scss */
+  /* line 257, ../scss/pages/home.scss */
   .partners_icons {
     margin: 48px 0;
   }
 }
 
-/* line 264, ../scss/pages/home.scss */
+/* line 265, ../scss/pages/home.scss */
 .partners_icons img {
   padding: 0 2.6%;
 }
 
-/* line 268, ../scss/pages/home.scss */
+/* line 269, ../scss/pages/home.scss */
 .steps-row {
   background-image: linear-gradient(to bottom, #373881, #8b84e7 51%, #ffa350);
 }
 
-/* line 272, ../scss/pages/home.scss */
+/* line 273, ../scss/pages/home.scss */
 .step_img_left {
   margin-top: 8%;
   margin-left: 19.5%;
 }
 @media (max-width: 992px) {
-  /* line 272, ../scss/pages/home.scss */
+  /* line 273, ../scss/pages/home.scss */
   .step_img_left {
     margin-left: 0;
   }
 }
 
-/* line 280, ../scss/pages/home.scss */
+/* line 281, ../scss/pages/home.scss */
 .step_img_right {
   margin-top: 8%;
   margin-right: 19.8%;
   margin-bottom: 8%;
 }
 @media (max-width: 992px) {
-  /* line 280, ../scss/pages/home.scss */
+  /* line 281, ../scss/pages/home.scss */
   .step_img_right {
     margin-right: 0;
   }
 }
 
-/* line 289, ../scss/pages/home.scss */
+/* line 290, ../scss/pages/home.scss */
 .step_text {
   display: block;
   margin-top: 8%;
@@ -400,42 +401,42 @@ h3 {
   margin-bottom: 8%;
 }
 @media (max-width: 992px) {
-  /* line 289, ../scss/pages/home.scss */
+  /* line 290, ../scss/pages/home.scss */
   .step_text {
     margin-left: 0;
   }
 }
 
-/* line 300, ../scss/pages/home.scss */
+/* line 301, ../scss/pages/home.scss */
 .step_text_left {
   margin-left: 19.5%;
 }
 @media (max-width: 992px) {
-  /* line 300, ../scss/pages/home.scss */
+  /* line 301, ../scss/pages/home.scss */
   .step_text_left {
     margin-left: 0;
   }
 }
 
-/* line 307, ../scss/pages/home.scss */
+/* line 308, ../scss/pages/home.scss */
 .step_desc {
   margin-top: 1%;
   opacity: 0.7;
   text-align: left;
 }
 
-/* line 313, ../scss/pages/home.scss */
+/* line 314, ../scss/pages/home.scss */
 .learn_more {
   margin-top: 50px;
   cursor: pointer;
 }
 
-/* line 318, ../scss/pages/home.scss */
+/* line 319, ../scss/pages/home.scss */
 .step4-row {
   margin-bottom: 2%;
 }
 
-/* line 322, ../scss/pages/home.scss */
+/* line 323, ../scss/pages/home.scss */
 .features-row {
   margin-top: 8%;
   text-align: center;
@@ -444,23 +445,23 @@ h3 {
   font-size: 1.25em;
 }
 
-/* line 330, ../scss/pages/home.scss */
+/* line 331, ../scss/pages/home.scss */
 .features_text {
   margin-top: 10%;
 }
 
-/* line 334, ../scss/pages/home.scss */
+/* line 335, ../scss/pages/home.scss */
 .features_items {
   display: block;
   margin-top: 20%;
 }
 
-/* line 339, ../scss/pages/home.scss */
+/* line 340, ../scss/pages/home.scss */
 .testimonials-row {
   background-image: linear-gradient(to right, #ffffff, #f5f7f8);
 }
 
-/* line 343, ../scss/pages/home.scss */
+/* line 344, ../scss/pages/home.scss */
 .testimonials-container {
   margin: 8%;
   color: #868e9c;
@@ -468,49 +469,53 @@ h3 {
   font-size: 1.25em;
 }
 
-/* line 350, ../scss/pages/home.scss */
+/* line 351, ../scss/pages/home.scss */
 .testimonials-container h2,
 .testimonials-container h3 {
   color: #373981;
 }
 
-/* line 355, ../scss/pages/home.scss */
-.slide_1 {
+/* line 356, ../scss/pages/home.scss */
+#carousel {
   margin-top: 8%;
 }
 
-/* line 359, ../scss/pages/home.scss */
-.slide_2,
-.slide_3 {
-  margin-top: 50%;
-}
-@media (max-width: 992px) {
-  /* line 359, ../scss/pages/home.scss */
-  .slide_2,
-  .slide_3 {
-    display: none;
-  }
+/* line 360, ../scss/pages/home.scss */
+.slide_image {
+  width: 100%;
 }
 
-/* line 367, ../scss/pages/home.scss */
+/* line 364, ../scss/pages/home.scss */
+.carousel-item {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 20%;
+}
+
+/* line 370, ../scss/pages/home.scss */
 .slide_description {
-  margin-top: 5%;
   font-size: 24px;
+  width: 100%;
+  color: #868e9c !important;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
 
-/* line 372, ../scss/pages/home.scss */
+/* line 379, ../scss/pages/home.scss */
 .slide_description h3 {
   font-size: 24px;
 }
 
-/* line 376, ../scss/pages/home.scss */
+/* line 383, ../scss/pages/home.scss */
 .slider_pagination {
   margin: 4.1% auto;
   display: block;
   width: 75px;
+  position: relative;
 }
 
-/* line 382, ../scss/pages/home.scss */
+/* line 390, ../scss/pages/home.scss */
 .pagination_item {
   display: block;
   width: 8px;
@@ -520,87 +525,89 @@ h3 {
   margin-right: 16px;
 }
 
-/* line 391, ../scss/pages/home.scss */
+/* line 399, ../scss/pages/home.scss */
 .item_active {
   background-color: #868e9c;
 }
 
-/* line 395, ../scss/pages/home.scss */
+/* line 403, ../scss/pages/home.scss */
 .download-app-row {
   background-image: url("/img/download-background.svg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 @media (max-width: 992px) {
-  /* line 395, ../scss/pages/home.scss */
+  /* line 403, ../scss/pages/home.scss */
   .download-app-row {
     background-image: url("/img/download_background_mobile.png");
   }
 }
 
-/* line 404, ../scss/pages/home.scss */
+/* line 412, ../scss/pages/home.scss */
 .download-app-text {
   text-align: center;
   margin-top: 4.5%;
   font-size: 1.25em;
 }
 
-/* line 410, ../scss/pages/home.scss */
+/* line 418, ../scss/pages/home.scss */
 .download_buttons {
   margin: 4.5% 0;
 }
 
-/* line 414, ../scss/pages/home.scss */
+/* line 422, ../scss/pages/home.scss */
 .counters-row {
   font-size: 1.25em;
 }
 
-/* line 418, ../scss/pages/home.scss */
+/* line 426, ../scss/pages/home.scss */
 .count-downloads {
   background-color: #373981;
 }
 
-/* line 422, ../scss/pages/home.scss */
+/* line 430, ../scss/pages/home.scss */
 .count-customers {
   background-color: #4749a3;
 }
 
-/* line 426, ../scss/pages/home.scss */
+/* line 434, ../scss/pages/home.scss */
 .count-faces {
   background-color: #5b5ec0;
 }
 
-/* line 430, ../scss/pages/home.scss */
+/* line 438, ../scss/pages/home.scss */
 .counter-item {
+  display: block;
+  width: 100%;
+  height: 100%;
   margin-top: 10%;
-  margin-left: 15%;
-  margin-bottom: 15%;
+  padding-bottom: 25%;
 }
 
-/* line 436, ../scss/pages/home.scss */
+/* line 449, ../scss/pages/home.scss */
 .counter-icon {
   float: left;
   padding-right: 5%;
 }
 
-/* line 441, ../scss/pages/home.scss */
+/* line 454, ../scss/pages/home.scss */
 .footer-row {
   background-color: #24254b;
 }
 
-/* line 445, ../scss/pages/home.scss */
+/* line 458, ../scss/pages/home.scss */
 .social_icons a {
   margin-right: 5%;
 }
 
-/* line 449, ../scss/pages/home.scss */
+/* line 462, ../scss/pages/home.scss */
 .copyright {
   text-align: center;
   margin: 3% auto;
   font-size: 0.75em;
 }
 
-/* line 455, ../scss/pages/home.scss */
+/* line 468, ../scss/pages/home.scss */
 .main_body {
   max-width: 1170px;
   margin: 0 auto;
