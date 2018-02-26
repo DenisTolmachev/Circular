@@ -24,42 +24,42 @@ h3{
 }
 
 h1{
-  font-size: 2.75vw;
+  font-size: 2.75em;
   line-height: 1.17;
-  /*@media (max-width: 1900px) {*/
-  /*  font-size: 2.75em;*/
-  /*}*/
-  /*@media (max-width: 1200px) {*/
-  /*  font-size: 1.75em;*/
-  /*}*/
-  /*@media (max-width: 992px) {*/
-  /*  font-size: 30px;*/
-  /*}*/
+  @media (max-width: 1900px) {
+    font-size: 2.75em;
+  }
+  @media (max-width: 1200px) {
+    font-size: 1.75em;
+  }
+  @media (max-width: 992px) {
+    font-size: 30px;
+  }
 }
 
 h2{
-  font-size: 2.5vw;
+  font-size: 2.5em;
   line-height: 1.25;
-  /*@media (max-width: 1200px) {*/
-  /*  font-size: 1.5em;*/
-  /*}*/
-/**/
-  /*@media (max-width: 992px) {*/
-  /*  font-size: 24px;*/
-  /*}*/
+  @media (max-width: 1200px) {
+    font-size: 1.5em;
+  }
+
+  @media (max-width: 992px) {
+    font-size: 24px;
+  }
 
 }
 
-h3{
-  font-size: 1.5vw;
+h3 {
+  font-size: 1.5em;
   line-height: 1.13;
-  /*@media (max-width: 1200px) {*/
-  /*  font-size: 0.5em;*/
-  /*}*/
-/**/
-  /*@media (max-width: 992px) {*/
-  /*  font-size: 18px;*/
-  /*}*/
+  @media (max-width: 1200px) {
+    font-size: 0.5em;
+  }
+
+  @media (max-width: 992px) {
+    font-size: 18px;
+  }
 }
 
 .main-header-row{
@@ -76,7 +76,7 @@ h3{
 .top-menu,
 .contact_us
 {
-  font-size: 1vw;
+  font-size: 1em;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -178,7 +178,7 @@ h3{
   margin-top: 3.9%;
   opacity: 0.7;
   text-align: left;
-  font-size: 1.25vw;
+  font-size: 1.25em;
   @media (max-width: 992px) {
     font-size: 14px;
   }
@@ -215,7 +215,7 @@ h3{
   display: block;
   float: left;
   text-transform: uppercase;
-  font-size: 1.125vw;
+  font-size: 1.125em;
   font-weight: bold;
   letter-spacing: 1.5px;
 
@@ -290,7 +290,7 @@ h3{
   display: block;
   margin-top: 8%;
   margin-left: 6.8%;
-  font-size: 1.25vw;
+  font-size: 1.25em;
   margin-bottom: 8%;
   @media (max-width: 992px) {
     margin-left: 0;
@@ -324,7 +324,7 @@ h3{
   text-align: center;
   color: #373981;
   margin-bottom: 8%;
-  font-size: 1.25vw;
+  font-size: 1.25em;
 }
 
 .features_text{
@@ -344,7 +344,7 @@ h3{
   margin: 8%;
   color: #868e9c;
   text-align: center;
-  font-size: 1.25vw;
+  font-size: 1.25em;
 }
 
 .testimonials-container h2,
@@ -404,7 +404,7 @@ h3{
 .download-app-text{
   text-align: center;
   margin-top: 4.5%;
-  font-size: 1.25vw;
+  font-size: 1.25em;
 }
 
 .download_buttons{
@@ -412,7 +412,7 @@ h3{
 }
 
 .counters-row{
-  font-size: 1.25vw;
+  font-size: 1.25em;
 }
 
 .count-downloads{
@@ -449,7 +449,7 @@ h3{
 .copyright{
   text-align: center;
   margin: 3% auto;
-  font-size: 0.75vw;
+  font-size: 0.75em;
 }
 
 .main_body{
