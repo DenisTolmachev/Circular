@@ -117,6 +117,11 @@ body {
       width: 87%;
       margin-left: 0px;
     }
+
+    @media (max-width: 1024px) {
+      width: 100%;
+      padding-top: 7%;
+    }
   }
 
   .phone_wrap {
@@ -214,7 +219,7 @@ body {
   .partners_header {
     margin-top: 5%;
     @media (max-width: 992px) {
-      margin-top: 48px;
+      margin-top: 20%;
     }
   }
 
@@ -372,7 +377,7 @@ body {
   }
 
   .download_buttons {
-    margin: 4.5% 0;
+    margin: 3.5% 0;
 
   }
 
