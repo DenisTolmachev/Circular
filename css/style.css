@@ -9,6 +9,11 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "MontserratRegular";
+  src: url("/fonts/Montserrat/Montserrat-Regular.eot");
+  src: url("/fonts/Montserrat/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/Montserrat/Montserrat-Regular.woff") format("woff"), url("/fonts/OMontserrat/Montserrat-Regular.ttf") format("truetype");
+}
 /* line 1, ../scss/pages/home.scss */
 html {
   font-size: 100%;
@@ -611,4 +616,92 @@ h3 {
 .main_body {
   max-width: 1170px;
   margin: 0 auto;
+}
+
+/* line 2, ../scss/pages/products.scss */
+#products .main-header-row {
+  background-image: url("/img/product_header_background.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+@media (max-width: 992px) {
+  /* line 2, ../scss/pages/products.scss */
+  #products .main-header-row {
+    /*background-image: url("/img/header_background_mobile.png");*/
+  }
+}
+/* line 11, ../scss/pages/products.scss */
+#products .top-menu {
+  padding-top: 5%;
+  padding-left: 0%;
+}
+/* line 14, ../scss/pages/products.scss */
+#products .top-menu .navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/* line 19, ../scss/pages/products.scss */
+#products .top-menu .navbar-nav .nav-item a {
+  font-family: MontserratRegular, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-align: left;
+}
+/* line 30, ../scss/pages/products.scss */
+#products .header_banner {
+  padding-top: 0%;
+  margin: 5% auto;
+}
+/* line 33, ../scss/pages/products.scss */
+#products .header_banner .header_text {
+  font-family: MontserratRegular, sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+/* line 37, ../scss/pages/products.scss */
+#products .header_banner .header_text h1 {
+  font-size: 128px;
+  /*font-weight: 900;*/
+  line-height: 0.94;
+  letter-spacing: 8px;
+}
+/* line 43, ../scss/pages/products.scss */
+#products .header_banner .header_text .header_description {
+  text-align: center;
+  opacity: 0.7;
+  font-size: 24px;
+  font-weight: 200;
+  letter-spacing: 5px;
+}
+/* line 52, ../scss/pages/products.scss */
+#products .header_btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.8%;
+  margin-left: 0%;
+}
+/* line 57, ../scss/pages/products.scss */
+#products .header_btns button {
+  height: 72px;
+  width: 370px;
+  border-radius: 100px;
+  background-color: rgba(255, 245, 215, 0.1);
+  border: 1px solid rgba(255, 245, 215, 0.1);
+}
+/* line 63, ../scss/pages/products.scss */
+#products .header_btns button:hover {
+  background-color: #1f2549;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  border: none;
+}
+/* line 68, ../scss/pages/products.scss */
+#products .header_btns button span {
+  font-family: MontserratRegular, sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #ffffff;
 }
