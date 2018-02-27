@@ -1,33 +1,5 @@
-html { font-size: 100% }
-
-body {
-  color: #fff;
-  background-color: #fff;
-  font-family: OpenSans;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  width: 100%;
-  height: 100%;
-}
-
-#home{
-  font-size: 1.25rem;
-}
 
 #home {
-  h1,
-  h2,
-  h3 {
-    font-family: Poppins;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: 1px;
-  }
-
   .main-header-row {
     background-image: url("/img/header_background.png");
     background-size: 100% auto;
@@ -36,19 +8,6 @@ body {
     @media (max-width: 992px) {
       background-image: url("/img/header_background_mobile.png");
     }
-  }
-
-  .logo,
-  .top-menu,
-  .contact_us {
-    font-size: 1rem;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-  }
-
-  .navbar-toggler {
-    margin-top: 10px;
-    border: none !important;
   }
 
   .top-menu {
@@ -76,24 +35,6 @@ body {
     display: block;
     float: left;
     padding: 2%;
-  }
-
-  .menu-item a,
-  .contact_us a {
-    color: #fff;
-    text-decoration: none;
-  }
-
-  .logo {
-    display: block;
-    float: right;
-    padding-top: 32%;
-
-    @media (max-width: 992px) {
-      padding-top: 24px;
-      float: left;
-    }
-
   }
 
   .contact_us,
