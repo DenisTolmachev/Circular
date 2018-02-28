@@ -10,14 +10,17 @@
     }
   }
 
-  .top-menu,
   .bottom_menu{
     padding-top: 7%;
     padding-left: 14%;
   }
 
+  .navbar{
+    margin-top:7%;
+  }
+
   .top-menu {
-    padding-top: 7%;
+    //padding-top: 7%;
     padding-left: 0;
     .navbar-nav {
       width: 100%;
