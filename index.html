@@ -8,11 +8,15 @@
     <!--<link rel="stylesheet" href="/css/bootstrap.css" />-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
 
     <!-- jQuery, Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <!--<script src="/js/bootstrap.js"></script>-->
+    <script src="/js/jquery-3.3.1.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="/js/carousel.js"></script>
 
     <title>Circular</title>
 </head>
@@ -115,16 +119,16 @@
                         </div>
                     </div>
                     <div class="row step2-row">
+                        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 flex-xl-last">
+                            <div class="step_img_right">
+                                <img class="img-fluid" src="img/visual_s2.png" />
+                            </div>
+                        </div>
                         <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
                             <div class="step_text step_text_left">
                                 <h2>Here it should be a two or three lines title about the app.</h2>
                                 <div class="step_desc">This should be some description text to back the huge title. It can be quite long actually and it can spread on two or even three lines.</div>
                                 <div class="learn_more">LEARN MORE <img class="img-fluid" src="img/link-arrow.png" /></div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 flex-first">
-                            <div class="step_img_right">
-                                <img class="img-fluid" src="img/visual_s2.png" />
                             </div>
                         </div>
                     </div>
@@ -143,16 +147,16 @@
                         </div>
                     </div>
                     <div class="row step4-row">
+                        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 flex-xl-last">
+                            <div class="step_img_right">
+                                <img class="img-fluid" src="img/visual_s4.png" />
+                            </div>
+                        </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                             <div class="step_text step_text_left">
                                 <h2>Here it should be a two or three lines title about the app.</h2>
                                 <div class="step_desc">This should be some description text to back the huge title. It can be quite long actually and it can spread on two or even three lines.</div>
                                 <div class="learn_more">LEARN MORE <img class="img-fluid" src="img/link-arrow.png" /></div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 flex-first">
-                            <div class="step_img_right">
-                                <img class="img-fluid" src="img/visual_s4.png" />
                             </div>
                         </div>
                     </div>
@@ -238,35 +242,22 @@
                     </div>
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <div id="carousel" class="carousel slide" data-ride="carousel">
-
-                                <div class="carousel-inner" role="listbox">
-                                    <div class="carousel-item active slide-active">
-                                        <div class="d-block slide_image">
-                                            <img class="img-fluid" src="img/avatar%231.png">
-                                        </div>
-                                        <div class="slide_description carousel-caption d-block">
-                                            <h3>Martha Roberts</h3>
-                                            Circular is simply amazing. I’ve been using it for my app and I must say that the downloads already exploded. Fantastic!
-                                        </div>
+                            <div class="owl-carousel owl-theme">
+                                <div class="item" style="width:470px">
+                                    <div class="slide_image">
+                                        <img class="img-fluid" src="img/avatar%231.png">
                                     </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block img-fluid" src="img/avatar%232.png" alt="Second slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block img-fluid" src="img/avatar%233.png" alt="Third slide">
+                                    <div class="slide_description">
+                                        <h3>Martha Roberts</h3>
+                                        Circular is simply amazing. I’ve been using it for my app and I must say that the downloads already exploded. Fantastic!
                                     </div>
                                 </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <div class="slider_pagination carousel-indicators">
-                                <span data-target="#carousel" data-slide-to="0" class="pagination_item item_active"></span>
-                                <span data-target="#carousel" data-slide-to="1" class="pagination_item"></span>
-                                <span data-target="#carousel" data-slide-to="2" class="pagination_item"></span>
+                                <div class="item slide_2" style="width:240px">
+                                    <img class="img-fluid" src="img/avatar%232.png" alt="Second slide">
+                                </div>
+                                <div class="item slide_3" style="width:240px">
+                                    <img class="img-fluid" src="img/avatar%233.png" alt="Third slide">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -333,12 +324,12 @@
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
-                        <div class="logo">
+                        <div class="logo logo_bottom">
                             <img class="img-fluid" src="img/logo.png" />
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-                        <div class="top-menu">
+                        <div class="bottom_menu">
                             <div class="menu-item"><a href="#">home</a></div>
                             <div class="menu-item"><a href="#">the product</a></div>
                             <div class="menu-item"><a href="#">features</a></div>

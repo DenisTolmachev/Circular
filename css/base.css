@@ -32,33 +32,34 @@ h3 {
 /* line 27, ../scss/base.scss */
 .logo,
 .top-menu,
-.contact_us {
+.contact_us,
+.bottom_menu {
   font-size: 1rem;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
-/* line 35, ../scss/base.scss */
+/* line 36, ../scss/base.scss */
 .navbar-toggler {
   margin-top: 10px;
   border: none !important;
 }
 
-/* line 40, ../scss/base.scss */
+/* line 41, ../scss/base.scss */
 .menu-item a,
 .contact_us a {
   color: #fff;
   text-decoration: none;
 }
 
-/* line 46, ../scss/base.scss */
+/* line 47, ../scss/base.scss */
 .logo {
   display: block;
   float: right;
   padding-top: 32%;
 }
 @media (max-width: 992px) {
-  /* line 46, ../scss/base.scss */
+  /* line 47, ../scss/base.scss */
   .logo {
     padding-top: 24px;
     float: left;
