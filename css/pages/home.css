@@ -402,78 +402,97 @@
 #home .slide_2,
 #home .slide_3 {
   margin-top: 35%;
+  width: 240px;
 }
-/* line 351, ../../scss/pages/home.scss */
+@media (max-width: 992px) {
+  /* line 346, ../../scss/pages/home.scss */
+  #home .slide_2,
+  #home .slide_3 {
+    margin-top: 8%;
+    width: 272px;
+  }
+}
+/* line 356, ../../scss/pages/home.scss */
+#home .slide_1 {
+  width: 470px;
+}
+@media (max-width: 992px) {
+  /* line 356, ../../scss/pages/home.scss */
+  #home .slide_1 {
+    width: 335px;
+  }
+}
+/* line 363, ../../scss/pages/home.scss */
 #home .slide_description {
   font-size: 1.5rem;
   width: 100%;
   color: #868e9c !important;
   margin-top: 10%;
 }
-/* line 358, ../../scss/pages/home.scss */
+/* line 370, ../../scss/pages/home.scss */
 #home .owl-theme .owl-nav.disabled + .owl-dots {
   margin-top: 3% !important;
 }
-/* line 362, ../../scss/pages/home.scss */
+/* line 374, ../../scss/pages/home.scss */
 #home .download-app-row {
   background-image: url("/img/download-background.svg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 @media (max-width: 992px) {
-  /* line 362, ../../scss/pages/home.scss */
+  /* line 374, ../../scss/pages/home.scss */
   #home .download-app-row {
     background-image: url("/img/download_background_mobile.png");
   }
 }
-/* line 371, ../../scss/pages/home.scss */
+/* line 383, ../../scss/pages/home.scss */
 #home .download-app-text {
   text-align: center;
   margin-top: 4.5%;
 }
-/* line 376, ../../scss/pages/home.scss */
+/* line 388, ../../scss/pages/home.scss */
 #home .download_buttons {
   margin: 3.5% 0;
 }
-/* line 381, ../../scss/pages/home.scss */
+/* line 393, ../../scss/pages/home.scss */
 #home .count-downloads {
   background-color: #373981;
 }
-/* line 385, ../../scss/pages/home.scss */
+/* line 397, ../../scss/pages/home.scss */
 #home .count-customers {
   background-color: #4749a3;
 }
-/* line 389, ../../scss/pages/home.scss */
+/* line 401, ../../scss/pages/home.scss */
 #home .count-faces {
   background-color: #5b5ec0;
 }
-/* line 393, ../../scss/pages/home.scss */
+/* line 405, ../../scss/pages/home.scss */
 #home .counter-item {
   display: block;
   width: 84%;
   margin: 10% auto;
   padding-bottom: 10%;
 }
-/* line 400, ../../scss/pages/home.scss */
+/* line 412, ../../scss/pages/home.scss */
 #home .counter-icon {
   float: left;
   padding-right: 5%;
 }
-/* line 405, ../../scss/pages/home.scss */
+/* line 417, ../../scss/pages/home.scss */
 #home .footer-row {
   background-color: #24254b;
 }
-/* line 409, ../../scss/pages/home.scss */
+/* line 421, ../../scss/pages/home.scss */
 #home .social_icons a {
   margin-right: 5%;
 }
-/* line 413, ../../scss/pages/home.scss */
+/* line 425, ../../scss/pages/home.scss */
 #home .copyright {
   text-align: center;
   margin: 3% auto;
   font-size: 0.75rem;
 }
-/* line 419, ../../scss/pages/home.scss */
+/* line 431, ../../scss/pages/home.scss */
 #home .main_body {
   max-width: 1170px;
   margin: 0 auto;
