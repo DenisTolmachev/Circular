@@ -17,6 +17,20 @@
 
   .navbar{
     margin-top:7%;
+    @media (max-width: 992px) {
+      top: -30px;
+    }
+  }
+
+  .mobile_menu_bg{
+    background-color: rgba(55, 57, 129, 0.95);
+  }
+
+  .nopadding{
+    @media (max-width: 992px) {
+      padding:0;
+      margin: 0;
+    }
   }
 
   .top-menu {
@@ -29,6 +43,9 @@
         a {
           letter-spacing: 1px;
           text-align: left;
+          @media (max-width: 992px) {
+            text-align: center;
+          }
         }
       }
     }
@@ -53,8 +70,15 @@
 
   .logo_bottom{
     @media (max-width: 992px) {
+      padding-top: 15%;
       float: none !important;
       text-align: center;
+    }
+  }
+
+  .mobile_logo_visible{
+    @media (max-width: 992px) {
+      display: none;
     }
   }
 
@@ -118,6 +142,7 @@
     @media (max-width: 992px) {
       position: relative;
       height: 395px;
+      width:100%;
     }
   }
 
