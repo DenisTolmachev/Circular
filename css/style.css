@@ -82,6 +82,11 @@ h3 {
   }
 }
 
+/* line 58, ../scss/base.scss */
+.logo_bottom {
+  padding-top: 38%;
+}
+
 /* line 3, ../scss/pages/home.scss */
 #home .main-header-row {
   background-image: url("/img/header_background.png");

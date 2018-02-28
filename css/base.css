@@ -65,3 +65,8 @@ h3 {
     float: left;
   }
 }
+
+/* line 58, ../scss/base.scss */
+.logo_bottom {
+  padding-top: 38%;
+}
