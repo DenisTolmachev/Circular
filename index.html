@@ -17,6 +17,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
     <script src="/js/carousel.js"></script>
+    <script src="/js/circular.js"></script>
 
     <title>Circular</title>
 </head>
@@ -25,16 +26,19 @@
         <div class="row main-header-row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 main-header-container">
                 <div class="row">
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 mobile_logo_visible">
                         <div class="logo">
                             <img class="img-fluid" src="img/logo.png" />
                         </div>
                     </div>
-                    <div class="col-6 col-sm-6 col-md-6 col-lg-8 col-xl-8">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 nopadding">
                         <nav class="navbar navbar-toggleable-md navbar-inverse">
                             <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
+                            <div class="navbar-brand">
+                                <img class="img-fluid" src="img/logo.png" />
+                            </div>
 
                             <div class="navbar-collapse collapse top-menu" id="navbar" aria-expanded="false" style="">
                                 <ul class="navbar-nav mr-auto">
@@ -243,7 +247,7 @@
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                             <div class="owl-carousel owl-theme">
-                                <div class="item" style="width:470px">
+                                <div class="item slide_1">
                                     <div class="slide_image">
                                         <img class="img-fluid" src="img/avatar%231.png">
                                     </div>
@@ -252,10 +256,10 @@
                                         Circular is simply amazing. I’ve been using it for my app and I must say that the downloads already exploded. Fantastic!
                                     </div>
                                 </div>
-                                <div class="item slide_2" style="width:240px">
+                                <div class="item slide_2">
                                     <img class="img-fluid" src="img/avatar%232.png" alt="Second slide">
                                 </div>
-                                <div class="item slide_3" style="width:240px">
+                                <div class="item slide_3">
                                     <img class="img-fluid" src="img/avatar%233.png" alt="Third slide">
                                 </div>
                             </div>

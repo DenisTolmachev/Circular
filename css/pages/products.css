@@ -9,36 +9,64 @@
     /*background-image: url("../img/header_background_mobile.png");*/
   }
 }
+<<<<<<< HEAD
 /* line 10, ../../scss/pages/products.scss */
 #products .top-menu {
   padding-top: 8%;
   padding-left: 0;
 }
 /* line 13, ../../scss/pages/products.scss */
+=======
+/* line 11, ../../scss/pages/products.scss */
+#products .navbar {
+  margin-top: 8%;
+}
+/* line 15, ../../scss/pages/products.scss */
+#products .top-menu {
+  padding-left: 0;
+}
+/* line 17, ../../scss/pages/products.scss */
+>>>>>>> origin/master
 #products .top-menu .navbar-nav {
   width: 100%;
   display: flex;
   justify-content: center;
 }
+<<<<<<< HEAD
 /* line 18, ../../scss/pages/products.scss */
 #products .top-menu .navbar-nav .nav-item a {
   font-family: MontserratRegular, sans-serif;
   font-size: 0.875rem;
+=======
+/* line 22, ../../scss/pages/products.scss */
+#products .top-menu .navbar-nav .nav-item a {
+  font-family: MontserratRegular, sans-serif;
+  font-size: 14px;
+>>>>>>> origin/master
   font-weight: 300;
   letter-spacing: 1px;
   text-align: left;
 }
+<<<<<<< HEAD
 /* line 29, ../../scss/pages/products.scss */
+=======
+/* line 33, ../../scss/pages/products.scss */
+>>>>>>> origin/master
 #products .header_banner {
   padding-top: 0;
   margin: 5% auto;
 }
+<<<<<<< HEAD
 /* line 32, ../../scss/pages/products.scss */
+=======
+/* line 36, ../../scss/pages/products.scss */
+>>>>>>> origin/master
 #products .header_banner .header_text {
   font-family: MontserratRegular, sans-serif;
   text-align: center;
   color: #ffffff;
 }
+<<<<<<< HEAD
 /* line 36, ../../scss/pages/products.scss */
 #products .header_banner .header_text h1 {
   font-size: 8rem;
@@ -54,37 +82,75 @@
   letter-spacing: 5px;
 }
 /* line 50, ../../scss/pages/products.scss */
+=======
+/* line 40, ../../scss/pages/products.scss */
+#products .header_banner .header_text h1 {
+  font-size: 128px;
+  line-height: 0.94;
+  letter-spacing: 8px;
+}
+/* line 45, ../../scss/pages/products.scss */
+#products .header_banner .header_text .header_description {
+  text-align: center;
+  opacity: 0.7;
+  font-size: 24px;
+  font-weight: 200;
+  letter-spacing: 5px;
+}
+/* line 54, ../../scss/pages/products.scss */
+>>>>>>> origin/master
 #products .header_btns {
   display: flex;
   justify-content: center;
   margin-top: 2.8%;
   margin-left: 0;
 }
+<<<<<<< HEAD
 /* line 55, ../../scss/pages/products.scss */
+=======
+/* line 59, ../../scss/pages/products.scss */
+>>>>>>> origin/master
 #products .header_btns button {
   height: 72px;
   width: 370px;
   display: block;
+<<<<<<< HEAD
   margin: 0 0.8% 7.8% 0.8%;
+=======
+  margin: 0px 0.8% 7.8% 0.8%;
+>>>>>>> origin/master
   border-radius: 100px;
   background-color: rgba(255, 245, 215, 0.1);
   border: 1px solid rgba(255, 245, 215, 0.1);
 }
+<<<<<<< HEAD
 /* line 63, ../../scss/pages/products.scss */
+=======
+/* line 67, ../../scss/pages/products.scss */
+>>>>>>> origin/master
 #products .header_btns button:hover {
   background-color: #1f2549;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
   border: none;
 }
+<<<<<<< HEAD
 /* line 68, ../../scss/pages/products.scss */
 #products .header_btns button span {
   font-family: MontserratRegular, sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
+=======
+/* line 72, ../../scss/pages/products.scss */
+#products .header_btns button span {
+  font-family: MontserratRegular, sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+>>>>>>> origin/master
   letter-spacing: 3px;
   text-align: center;
   color: #ffffff;
 }
+<<<<<<< HEAD
 /* line 78, ../../scss/pages/products.scss */
 #products .features-row {
   background-color: #373981;
@@ -135,3 +201,5 @@
   text-align: left;
   color: #ffffff;
 }
+=======
+>>>>>>> origin/master
