@@ -17,7 +17,7 @@
       .nav-item {
         a {
           font-family: MontserratRegular, sans-serif;
-          font-size: 14px;
+          font-size: 0.875rem;
           font-weight: 300;
           letter-spacing: 1px;
           text-align: left;
@@ -34,14 +34,14 @@
       text-align: center;
       color: #ffffff;
       h1 {
-        font-size: 128px;
+        font-size: 8rem;
         line-height: 0.94;
         letter-spacing: 8px;
       }
       .header_description {
         text-align: center;
         opacity: 0.7;
-        font-size: 24px;
+        font-size: 1.5rem;
         font-weight: 200;
         letter-spacing: 5px;
       }
@@ -56,7 +56,7 @@
       height: 72px;
       width: 370px;
       display: block;
-      margin: 0px 0.8% 7.8% 0.8%;
+      margin: 0 0.8% 7.8% 0.8%;
       border-radius: 100px;
       background-color: rgba(255,245,215,.1);
       border: 1px solid rgba(255,245,215,.1);
@@ -67,10 +67,53 @@
       }
       span {
         font-family: MontserratRegular, sans-serif;
-        font-size: 14px;
-        font-weight: 900;
+        font-size: 0.875rem;
+        font-weight: 400;
         letter-spacing: 3px;
         text-align: center;
+        color: #ffffff;
+      }
+    }
+  }
+  .features-row {
+    background-color: #373981;
+    .main-features-container {
+      margin-top: 7%;
+      margin-bottom: 7%;
+      padding: 0 13% 0 13%;
+      .agency-title {
+        font-family: MontserratRegular, sans-serif;
+        font-size: 4rem;
+        font-weight: 400;
+        line-height: 1.25;
+        letter-spacing: 4px;
+        text-align: left;
+        color: #ffffff;
+        text-transform: uppercase;
+      }
+      .discuss-link {
+        margin-top: 7%;
+        a {
+          font-family: MontserratRegular, sans-serif;
+          font-size: 1rem;
+          font-weight: 400;
+          letter-spacing: 2px;
+          text-align: left;
+          color: #ffffff;
+          text-decoration: none;
+          text-transform: uppercase;
+          img {
+            margin-left: 20px;
+          }
+        }
+      }
+      .agency-text {
+        opacity: 0.7;
+        font-family: MontserratRegular, sans-serif;
+        font-size: 3rem;
+        font-weight: 200;
+        line-height: 1.33;
+        text-align: left;
         color: #ffffff;
       }
     }
