@@ -615,7 +615,7 @@ h3 {
 /* line 22, ../scss/pages/products.scss */
 #products .top-menu .navbar-nav .nav-item a {
   font-family: MontserratRegular, sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 300;
   letter-spacing: 1px;
   text-align: left;
@@ -633,7 +633,7 @@ h3 {
 }
 /* line 40, ../scss/pages/products.scss */
 #products .header_banner .header_text h1 {
-  font-size: 128px;
+  font-size: 8rem;
   line-height: 0.94;
   letter-spacing: 8px;
 }
@@ -641,7 +641,7 @@ h3 {
 #products .header_banner .header_text .header_description {
   text-align: center;
   opacity: 0.7;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 200;
   letter-spacing: 5px;
 }
@@ -657,7 +657,7 @@ h3 {
   height: 72px;
   width: 370px;
   display: block;
-  margin: 0px 0.8% 7.8% 0.8%;
+  margin: 0 0.8% 7.8% 0.8%;
   border-radius: 100px;
   background-color: rgba(255, 245, 215, 0.1);
   border: 1px solid rgba(255, 245, 215, 0.1);
@@ -671,9 +671,59 @@ h3 {
 /* line 72, ../scss/pages/products.scss */
 #products .header_btns button span {
   font-family: MontserratRegular, sans-serif;
-  font-size: 14px;
-  font-weight: 900;
+  font-size: 0.875rem;
+  font-weight: 400;
   letter-spacing: 3px;
   text-align: center;
+  color: #ffffff;
+}
+/* line 82, ../scss/pages/products.scss */
+#products .features-row {
+  background-color: #373981;
+}
+/* line 84, ../scss/pages/products.scss */
+#products .features-row .main-features-container {
+  margin-top: 7%;
+  margin-bottom: 7%;
+  padding: 0 13% 0 13%;
+}
+/* line 88, ../scss/pages/products.scss */
+#products .features-row .main-features-container .agency-title {
+  font-family: MontserratRegular, sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 4px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+/* line 98, ../scss/pages/products.scss */
+#products .features-row .main-features-container .discuss-link {
+  margin-top: 7%;
+}
+/* line 100, ../scss/pages/products.scss */
+#products .features-row .main-features-container .discuss-link a {
+  font-family: MontserratRegular, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* line 109, ../scss/pages/products.scss */
+#products .features-row .main-features-container .discuss-link a img {
+  margin-left: 20px;
+}
+/* line 114, ../scss/pages/products.scss */
+#products .features-row .main-features-container .agency-text {
+  opacity: 0.7;
+  font-family: MontserratRegular, sans-serif;
+  font-size: 3rem;
+  font-weight: 200;
+  line-height: 1.33;
+  text-align: left;
   color: #ffffff;
 }
